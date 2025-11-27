@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <style>
+        /* general stuff */
+        body {
+            font-family: Helvetica, sans-serif;
+            font-size: 16px;
+            background-color: #333;
+            color: #fdef56;
+        }
+
+        h1 {
+            color: #fdef56;
+            text-align: center;
+        }
+
+        h2 {
+            color: #fdef56;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: center;
+            margin-left: 20px;
+        }
+
+        /* image overlay */
+        .container {
+            position: relative;
+            width: 50%;
+            margin: 0 auto;
+            max-width: 300px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: #fdef56;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+            border-radius: 8px;
+        }
+
+        .container:hover .overlay {
+            bottom: 0;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .text {
+            white-space: nowrap; 
+            color: #333;
+            font-size: 20px;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #fdef56;
+            padding: 10px 0;
+            width: 100%;
+            margin: 0;         
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center; 
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 0 15px; /* space between menu items */
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #333;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #333;
+            color: #fdef56;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Manifesto</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Hello World! Welcome to My Page</h1>
+
+    <div class="container">
+        <img src="FotoJose (1).jpg" alt="My Photo">
+        <div class="overlay">
+            <div class="text">Jose Garcia Puglisi</div>
+        </div>
+    </div>
+
+    <p>Hello! I'm currently a fifth–semester college student pursuing a degree in Information Systems. I have a strong interest in technology, digital systems, 
+        and how they can be used to improve everyday life. In my free time, I enjoy watching YouTube, drawing, exploring anime, playing mobile games, as well as 
+        dabbling in small coding projects. These hobbies help me stay creative and relaxed outside of academic work. I'm always looking for new opportunities to 
+        learn, grow, and challenge myself. Thank you for taking the time to visit my page!
+    </p>
+
+    <p>Uh... Don't know what else to put here, can't find the right words... That's about it I guess.</p>
+
+    <h2>Thanks for Reading!</h2>
+</body>
+</html>
