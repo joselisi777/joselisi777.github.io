@@ -1,0 +1,71 @@
+/* general stuff */
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #333;
+    color:khaki;
+}
+
+h1 {
+    color: khaki;
+    text-align: center;
+}
+
+h2 {
+    color: khaki;
+    text-align: center;
+}
+
+h3 {
+    color: khaki;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+ol {
+    display: inline-block;
+    text-align: left; 
+    margin: 0 auto;
+}
+
+ul {
+    display: inline-block;
+    text-align: left; 
+    margin: 0 auto;
+}
+
+.list-container {
+    text-align: center;
+}
+
+/* Navigation Bar */
+.topnav {
+    background-color: khaki;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ff9539;
+    color: #333;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: #333;
+}
